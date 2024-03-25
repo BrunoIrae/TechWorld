@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&family=Kaushan+Script&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Sacramento&display=swap');
+
+body {
+    font-family: "Kaushan Script", cursive;
+    background-color: rgba(231, 238, 240, 0.874); 
+}
+
+.container{
+    font-family: "Exo 2", sans-serif;
+    font-size:  1 rem;
+}
+
+.container h1{
+    font-family: "Kaushan Script", cursive;
+    font-size:  3rem;
+    color: #008000;
+    margin: 50px auto;  
+}
+
+.container p {
+    margin-bottom: 20px;
+    padding: 10px; 
+    text-align: justify;
+}
+
+.container ul {
+    display: flex; /*Alinha um do lado do outro*/
+    justify-content: space-around; /*Da um espaço entre os itens*/
+}
+
+.container ul li {
+    list-style: none; /*Tira os pontos que ficam do lado dos itens*/
+}
+
+.container ul li:first-child a {
+    color: #008000; /* Cor de texto verde */
+}
+
+.container ul li a {
+    text-decoration: none; /*Tira os pontos que ficam do lado dos itens*/
+    color: #41cb41;
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+.container ul li a:hover {
+    background-color: #f2f2f2;
+    padding: 5px 10px; /* Adicionando um preenchimento interno aos links */
+    border-radius: 5px; /* Adicionando borda arredondada */
+}
+
+
+input[type="text"] {
+    border: 2px solid #ccc; 
+    padding: 10px; 
+    width: 25%; 
+    margin: 0 auto; /* Centraliza horizontalmente o campo de busca */
+    display: block; /* Faz com que o campo de busca ocupe toda a largura disponível */
+}
+
+input[type="submit"] {
+    padding: 8px 16px; 
+    margin: 0 auto; 
+    display: block;     
+    background-color: #008000; 
+    color: #fff; 
+    border: none; /* Remove a borda */
+    cursor: pointer; /* Muda o cursor ao passar por cima */
+    margin: 10px auto;
+}
+
+input[type="submit"]:hover {
+    background-color: #006400; /* Cor de fundo mais escura ao passar o mouse */
+}
+
+
+
+
+
+
+
